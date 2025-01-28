@@ -19,11 +19,11 @@
 </style>
 </head>
 <body class="font-roboto">
-    <main class="max-w-screen-xl mx-auto">
-    <header class="bg-[#FFFBF0]">
-        <nav class="mt-10 flex items-center justify-between">
+    <header class="bg-[#FFFBF0] ">
+        <div class=" max-w-screen-xl mx-auto px-5 ">
+        <nav class="py-20 flex items-center justify-between">
           <img class="w-56 lg:w-80" src="icons/logo.png" alt="">
-          <ul class="flex gap-8 text-base font-bold">
+          <ul class=" lg:flex gap-8 text-base font-bold hidden md:block lg:block">
             <li>Home</li>
             <li>Product</li>
             <li>About us</li>
@@ -32,22 +32,25 @@
         </nav>
      <div class="lg:flex md:flex items-center gap-36 mt-10">
         <div>
-         <h1 class="text-7xl uppercase mb-6 font-bebas-neue"> 
+         <h1 class="md:text-5xl lg:text-7xl text-4xl uppercase mb-6 font-bebas-neue"> 
             <span class="text-orange-400">Be the Penguins</span> <br>
              <span class="text-stone-800">of Winter</span></h1>
          <p>Lorem Ipsum is simply dummy text of the printing 
             and typesetting industry.</p>
-            <button class=" bg-linear-to-r from-[#A4BC46] to-[#85A019] px-8 py-4 rounded-xl font-medium text-white mt-7">
-                <i class="fa-solid fa-cart-shopping text-3xl"></i>
+            <button class=" bg-linear-to-r from-[#A4BC46] to-[#85A019] lg:px-8 py-4 px-6 rounded-xl font-medium text-white mt-7">
+                <i class="fa-solid fa-cart-shopping text-2xl"></i>
                    BUY NOW</button>
         </div>
-        <div>
+        <div class="mt-10">
             <img src="images/model.png" alt="">
         </div>
     </div>
+</div>
+    </header>
+    <main class="max-w-screen-xl mx-auto">
     <section class="mt-40">
-    <h1 class="font-bebas-neue text-5xl font-normal">WOMAN JACKET</h1> 
-    <div class="flex mt-15">
+    <h1 class="font-bebas-neue text-5xl font-normal text-center lg:text-left">WOMAN JACKET</h1> 
+    <div class="md:flex lg:flex mt-15">
         <div class="p-5 space-y-4 drop-shadow-Ig rounded-3xl">
            <img class="rounded-3xl p-5 bg-[#F1F1F1]" src="images/jacket-1.png" alt="">
            <h3 class="font-roboto text-2xl font-bold">Yellow Coat Jacket</h3>
@@ -89,8 +92,8 @@
 </section>
 
 <section class="mt-40"> 
-    <h1 class="font-bebas-neue text-5xl font-normal">Man Jacket</h1>
-    <div class="flex mt-15">
+    <h1 class="font-bebas-neue text-5xl font-normal text-center lg:text-left">Man Jacket</h1>
+    <div class="md:flex lg:flex mt-15">
         <div class="p-5 space-y-4 drop-shadow-Ig rounded-3xl">
             <img class="rounded-3xl p-5 bg-[#F1F1F1]"  src="images/jacket-4.png" alt="">
             <h3 class="font-roboto text-2xl font-bold">Snowboard Jacket Mens</h3>
@@ -132,11 +135,49 @@
 
     </div>
 </section>
-    </header>
-</main>
-    
-    <footer>
+   
 
+</main>
+    <footer class="max-w-screen-xl mx-auto mt-24 mb-24">
+        <div class="lg:flex items-center justify-between p-5">
+                <div class="space-y-4">
+                    <div class="flex gap-9">
+                        <img class="w-16" src="icons/house.png" alt="">
+                        <div>
+                            <h4 class="text-2xl font-bold">Find the Perfect Fit</h4>
+                            <p class="text-base font-normal">Everybody is different, which is why we<br>
+                                offer styles for every body.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-9">
+                        <img class="w-16" src="icons/box.png" alt="">
+                        <div>
+                            <h4 class="text-2xl font-bold">Free Exchanges</h4>
+                            <p class="text-base font-normal">One of the many reasons you can shop<br>
+                                with peace of mind.
+                               </p>
+                        </div>
+                    </div>
+                    <div class="flex gap-9">
+                        <img class="w-16" src="icons/question.png" alt="">
+                        <div>
+                            <h4 class="text-2xl font-bold">Contact Our Seller</h4>
+                            <p class="text-base font-normal">They are here to help you. That's quite<br>
+                                literally what we pay them for.
+                                </p>
+                        </div>
+                    </div>
+                </div>
+
+
+            
+            <div>
+             <img class="w-[600px] mt-24" src="images/shopping.png" alt="">
+            </div>
+        </div>
+           
+           
+        
     </footer>
 </body>
 </html>
